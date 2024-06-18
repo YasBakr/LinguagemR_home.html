@@ -1,15 +1,93 @@
 body, html {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Para evitar a barra de rolagem horizontal */
+    overflow-x: hidden;
+}
+
+.Main_Tittle{
+    text-align: justify;
+    color: #A2ABCE;
+    font-size: 50px;
+    padding-left: 100px; 
+    justify-content:flex-start; 
+}
+
+.Secondary_Tittle{
+    color: #F2EFEB;
+    font-size: 20px;
+}
+
+.Baloon_Text{
+    text-align: left;
+    color: #000000;
+    font-size: 15px;
+    justify-content:flex-start;
+    padding-left: 10px; 
+    padding-right: 10px; 
+}
+
+.Text{
+    text-align: justify;
+    color: #000000;
+    font-size: 20px;
+    justify-content:flex-start;
+    padding-left: 100px; 
+    padding-right: 100px; 
+}
+
+.Search_Bar{
+    width: 100%;
+    height: 50px;
+    background-color:#8089AA;
+    margin: 0;
+    padding: 0;
 }
 
 .Banner_Home {
+    /*informações do banner*/
+    display: flex; 
     width: 100%;
-    height: 400px;
+    height: 350px;
     background-color: #A2ABCE;
-    color: rgb(0, 0, 0); /* Cor do texto */
-    text-align: center; 
     margin: 0;
     padding: 0;
+}
+
+.Banner_Write{
+    /*informações de escrita*/
+    color: #F2EFEB;
+    font-size: 80px;
+    padding-left: 100px; 
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+
+.Imagem_Home{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    left: 300px;
+
+}
+
+.Model_Window1{
+    /*definição do retagulo*/
+    background-color:#A2ABCE;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    align-items: center;
+    border: 2px solid #8089AA;
+    text-align: justify;
+
+    /*Espaçamento*/
+    margin-right: 70px; 
+    position: relative;
+    align-items: center;
+}
+
+.container {
+    display: flex;    
 }
